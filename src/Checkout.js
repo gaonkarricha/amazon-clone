@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Checkout.css";
-import Subtotal from "/.Subtotal.js";
+import Subtotal from "./Subtotal.js";
 
 function Checkout() {
   return (
@@ -29,4 +29,4 @@ function Checkout() {
   )
 }
 
-export default Checkout
+export default Checkout;

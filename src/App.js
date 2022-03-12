@@ -4,7 +4,7 @@ import Header from './Header.js';
 import Home from './Home.js';
 import { BrowserRouter as Router, Route, Routes }
 from "react-router-dom";
-import Checkout from "./Checkout";
+import Checkout from "./Checkout.js";
 
 
 
@@ -18,7 +18,7 @@ function App() {
 
     
 
-<Route path="/checkout">
+<Route path="./Checkout" element={[<Home />]} >
   
   <Checkout />
 </Route>
