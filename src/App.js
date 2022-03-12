@@ -18,12 +18,12 @@ function App() {
 
     
 
-<Route path="./Checkout" element={[<Home />]} >
+<Route path="./Checkout" element={<Checkout />} />
   
-  <Checkout />
-</Route>
+  
 
-<Route path="/" element={[<Header />, <Home />]} />
+
+<Route path="/" element={<Home />} />
 
 </Routes>
     
