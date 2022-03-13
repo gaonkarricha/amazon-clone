@@ -20,9 +20,6 @@ function App() {
 
 <Route path="./Checkout" element={<Checkout />} />
   
-  
-
-
 <Route path="/" element={<Home />} />
 
 </Routes>
